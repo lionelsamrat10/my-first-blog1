@@ -1,0 +1,50 @@
+body{
+	border:20px solid #bdc3c7;
+	padding: 20px;
+	max-width: 700px;
+	width: 80%;
+	margin: 20px auto;
+}
+p{
+	font-family: Source Sans Pro;
+	font-weight: 400px;
+}
+h2{
+	font-family: Source Sans Pro;
+	font-weight: 700px;
+	color: #2c3e50;
+}
+div{
+	font-family: Source Sans Pro;
+	font-weight: 700px;
+}
+.quote{
+	border-left: 5px solid #bdc3c7;
+	padding-left: 5px;
+}
+.date{
+	color: #3498db;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+}
+hr.style-eight {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr.style-eight:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+.post{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
